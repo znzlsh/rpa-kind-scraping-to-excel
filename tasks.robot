@@ -89,6 +89,7 @@ Search for
 *** Tasks ***
 Minimal task
     Open Available Browser    ${URL}
+    Sleep    1.5s
     Search for                ${SEARCH_TEXT}
     Sleep    1.5s
     Wait Until Page Contains Element    xpath://td[@title='${SEARCH_TEXT}']
